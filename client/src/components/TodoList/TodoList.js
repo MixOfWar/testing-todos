@@ -46,7 +46,7 @@ const TodoList = () => {
         <span>{data.errors}</span>
       ) : (
         <ul className="todoDisplay">
-          {/* What is the Big O Notation of the following lines (45-48) */}
+          {/* What is the Big O Notation of the following lines (50-54) */}
           {data.todosList &&
             data.todosList.length > 0 &&
             data.todosList.map((item, index) => (
