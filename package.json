@@ -12,7 +12,11 @@
   "scripts": {
     "client": "cd client && yarn start",
     "server": "cd server && yarn start",
-    "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
+    "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+  },
+  "engines": {
+    "node": "10.16.0"
   },
   "eslintConfig": {
     "extends": [

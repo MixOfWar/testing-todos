@@ -1,4 +1,10 @@
 {
-  "cSpell.ignoreWords": ["bgcolor", "mongoimport", "todoapp", "todos"],
+  "cSpell.ignoreWords": [
+    "bgcolor",
+    "mongoimport",
+    "postbuild",
+    "todoapp",
+    "todos"
+  ],
   "cSpell.words": ["userdata"]
 }
