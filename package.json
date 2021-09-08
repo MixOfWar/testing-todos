@@ -10,9 +10,9 @@
     "concurrently": "^6.2.1"
   },
   "scripts": {
-    "client": "cd client && yarn start",
-    "server": "cd server && yarn start",
-    "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently --kill-others-on-fail \"npm server\"  \"npm client\""
   },
   "engines": {
     "node": "10.16.0"
