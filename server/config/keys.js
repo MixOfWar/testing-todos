@@ -4,7 +4,7 @@ module.exports = {
     apiEndpoint: process.env.API_URL ? `/${process.env.API_URL}` : "/api",
   },
   database: {
-    url: process.env.MONGODB_URI || "mongodb://localhost:27017/todoapp",
+    url: `mongodb+srv://mxsilentwar:103117Dp!@teaching.sll1f.mongodb.net/testingTodos?retryWrites=true&w=majority`,
   },
   jwt: {
     secret: process.env.JWT_SECRET || "jwt-secret",
