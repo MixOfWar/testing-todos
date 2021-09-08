@@ -1,7 +1,7 @@
 import express from "express";
-const router = express.Router();
 import { User, Todo } from "../models";
 import { requireAuth } from "../middleware";
+const router = express.Router();
 
 router.get("/", requireAuth, async (req, res, next) => {
   const { user } = req;
